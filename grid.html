@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+       .grid{
+       display: grid;
+       gap: 20px;
+       grid-template-columns: auto auto auto auto;
+       padding: 50px;
+       }
+       IMG{
+        width: 300px;
+        height:350px;
+        transition: all 5s;
+        padding:-5px;
+       
+       }
+       IMG:hover{
+        transform: scale(1.5,1.5);
+       }
+       .label{
+        overflow: hidden;
+        border-radius: 30px;
+        border: 2px solid black;
+       }
+      
+    </style>
+</head>
+<body>
+    <div class="grid">
+       <div class="label">
+        <IMG src="IMG/background.jpg">
+    </div>
+       <div class="label">
+        <IMG src="IMG/favicon.png">
+        </div>
+       <div class="label">
+        <IMG src="IMG/img_5terre.jpg">
+        </div>
+       <div class="label">
+        <IMG src="IMG/css.svg">
+        </div>
+       <div class="label">
+        <IMG src="IMG/img_forest.jpg">
+        </div>
+       <div class="label">
+        <IMG src="IMG/home1.png">
+        </div>
+       <div class="label">
+        <IMG src="IMG/image-qr-code.png">
+        </div>
+        <div class="label">
+            <IMG src="IMG/istock.webp">
+        </div>
+    </div>
+
+</body>
+</html>

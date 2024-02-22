@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>goldchain</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+        
+    <header>
+       <h2>LOGO</h2>
+       <div class="nav">
+        <a href="">Home</a>
+        <a href="">Blog</a>
+        <a href="">FAQ</a>
+        <a href="">About</a>
+        <a href="">Info</a>
+        <a href="">Tricks</a>
+        <a href="">LOGIn</a>
+
+       </div>
+    </header>
+       <form>
+        <div class="loginpage">
+            <input type="email" placeholder="Email or phone number" id="email">
+            <input type="password" placeholder="password" id="password">
+            <input type="submit" onclick="auth()" value="login">
+        </div>
+     </form>
+     <script>
+        function auth(){
+            var email=document.getElementById("email").value;
+            var password=document.getElementById("password").value;
+        }
+//  condition
+        if(email=='admin@gmail.com' && password==44676744)
+        {
+          window.location.assign("page2.html");
+          alert("login successfully");
+        }
+        else{
+            alert("invalid information");
+            return;
+        }
+     </script>
+    
+     <h1></h1>
+    <footer>
+        <h2>&copy; copyright Reserved.</h2>
+    </footer>
+    
+</body>
+</html>

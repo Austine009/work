@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexass</title>
+    <style>
+        .flexbox{
+            background-color: red;
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+            justify-content: right;
+        }
+        .flexbox > div{
+            background-color: red;
+            margin: 0 20px ;
+            padding: 20px;
+            font-size: 20px;
+        }
+        a{
+            background-color: black;
+            color: white;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="flexbox">
+        <span style="text-align: left;"> FLEXASS </span>
+        <div> Home </div>
+        <div> About </div>
+        <div> FAQ </div>
+        <div> Service </div>
+        <a>log in</a>
+        <a> sign up</a>
+    </div>
+</body>
+</html>
